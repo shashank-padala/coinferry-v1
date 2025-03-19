@@ -24,7 +24,7 @@ Coinferry empowers users with an extra layer of security for every crypto transa
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/<your-username>/coinferry.git
+   git clone https://github.com/shashank-padala/coinferry.git
    cd coinferry
    ```
 
