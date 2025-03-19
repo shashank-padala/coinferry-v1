@@ -65,12 +65,15 @@ A brief overview of the project layout:
 
 ```
 coinferry/
-├── pages/            # Next.js pages for routes
-├── components/       # React components (UI elements)
-├── public/           # Static assets like images and fonts
-├── styles/           # CSS/SCSS files
-├── package.json      # Project dependencies and scripts
-└── README.md         # This documentation file
+├── app/                # Next.js App Router components and routes
+│   ├── layout.js       # Global layout component
+│   └── page.js         # Homepage and route components
+├── components/         # Reusable React components (UI elements)
+├── public/             # Static assets (images, fonts, etc.)
+├── styles/             # CSS/SCSS files
+├── package.json        # Project dependencies and scripts
+└── README.md           # This documentation file
+
 ```
 
 ## Contributing
