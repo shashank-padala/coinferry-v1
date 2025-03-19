@@ -1,6 +1,3 @@
-Below is an example of a README file for Coinferry that includes the product vision and setup instructions. You can create a file named `README.md` in your project root with the following content:
-
-```markdown
 # Coinferry
 
 ## Product Vision
@@ -83,6 +80,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
-
-This README provides an overview of the product vision, features, setup instructions, and deployment details. Feel free to customize it further to fit your needs.
