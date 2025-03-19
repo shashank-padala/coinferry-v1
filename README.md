@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Below is an example of a README file for Coinferry that includes the product vision and setup instructions. You can create a file named `README.md` in your project root with the following content:
+
+```markdown
+# Coinferry
+
+## Product Vision
+
+Coinferry empowers users with an extra layer of security for every crypto transaction. By integrating two-factor authentication (2FA) directly into wallet transactions, Coinferry ensures that even if private keys are compromised, your funds remain secure. Our non-custodial solution currently supports Ethereum and Solana—with plans to expand to additional chains—providing a user-friendly and robust approach to next-gen wallet protection.
+
+## Features
+
+- **2FA for Crypto Transactions:** Secure every transaction with real-time OTP verification.
+- **Seamless Wallet Integration:** Easily connect popular crypto wallets like MetaMask and Phantom.
+- **Multi-Chain Support:** Built-in support for Ethereum and Solana, with more chains coming soon.
+- **Non-Custodial Design:** Maintain full control of your funds while our smart contracts act solely as a verification checkpoint.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js (v14.x or later)
+- npm or yarn
+- Git (and GitHub CLI if creating repositories)
+
+### Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/<your-username>/coinferry.git
+   cd coinferry
+   ```
+
+2. **Install Dependencies**
+
+   Using npm:
+   ```bash
+   npm install
+   ```
+
+   Or using yarn:
+   ```bash
+   yarn install
+   ```
+
+3. **Run the Development Server**
+
+   Using npm:
+   ```bash
+   npm run dev
+   ```
+
+   Or using yarn:
+   ```bash
+   yarn dev
+   ```
+
+   Open your browser at [http://localhost:3000](http://localhost:3000) to view the homepage.
+
+### Deployment
+
+- **Vercel:** For deployment, connect your GitHub repository to Vercel. Visit [https://vercel.com](https://vercel.com) and follow the instructions to import and deploy your project.
+- **Custom Deployment:** Configure your hosting environment to serve the Next.js application as per the Next.js deployment guidelines.
+
+## Project Structure
+
+A brief overview of the project layout:
+
+```
+coinferry/
+├── pages/            # Next.js pages for routes
+├── components/       # React components (UI elements)
+├── public/           # Static assets like images and fonts
+├── styles/           # CSS/SCSS files
+├── package.json      # Project dependencies and scripts
+└── README.md         # This documentation file
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## License
 
-## Learn More
+This project is licensed under the [MIT License](LICENSE).
+```
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This README provides an overview of the product vision, features, setup instructions, and deployment details. Feel free to customize it further to fit your needs.
