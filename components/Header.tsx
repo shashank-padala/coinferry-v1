@@ -1,15 +1,13 @@
 // components/Header.tsx
 import React from 'react';
+import Logo from './Logo';
 
 const Header: React.FC = () => {
   return (
     <header className="sticky top-0 z-50 bg-white shadow">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo / Brand */}
-        <div className="text-2xl font-bold text-blue-600">
-          CoinFerry
-        </div>
-
+        <Logo />
         {/* Navigation */}
         <nav className="hidden md:flex space-x-6 text-gray-700">
           <a href="#" className="hover:text-blue-600 transition-colors">

@@ -25,7 +25,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* globals.css */
 .btn-primary {
-  @apply bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors font-medium;
+  @apply bg-white text-blue-700 px-6 py-3 rounded-full hover:bg-gray-200 transition-colors font-semibold;
 }
+
 
