@@ -8,6 +8,7 @@ const Header: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo / Brand */}
         <Logo />
+        
         {/* Navigation */}
         <nav className="hidden md:flex space-x-6 text-gray-700">
           <a href="#" className="hover:text-blue-600 transition-colors">
